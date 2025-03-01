@@ -1,0 +1,47 @@
+/* Main content container */
+main {
+    margin-top: 80px; /* Match this value with the header height */
+    padding: 20px; /* Optional: Add padding for better spacing */
+}
+
+/* About Safety Products Section */
+.safety-products-section {
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 900px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Product Review Styling */
+.product-review {
+    margin-bottom: 30px;
+}
+
+.product-review h3 {
+    color: #00796B;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.product-review p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.product-review button {
+    padding: 10px 20px;
+    background-color: #00796B;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-review button:hover {
+    background-color: #004D40;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}

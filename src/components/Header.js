@@ -15,6 +15,7 @@ const Header = () => {
                     <li><Link to="/hotspots">Incident Hotspots</Link></li>
                     <li><Link to="/reviews">Safety Product Reviews</Link></li>
                     <li><Link to="/login">Login</Link></li>
+                    <li><Link to="/safety-products">About Safety Products</Link></li>
                 </ul>
             </nav>
         </header>

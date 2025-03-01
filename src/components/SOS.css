@@ -1,0 +1,66 @@
+/* Global styles for the SOS page */
+.sos-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+    background-image: url('https://static.vecteezy.com/system/resources/previews/004/526/898/non_2x/women-protection-gradient-icon-for-dark-theme-protect-girls-against-violence-female-empowerment-women-safety-thin-line-color-symbol-modern-style-pictogram-isolated-outline-drawing-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px; /* Add some padding for smaller screens */
+    padding-top: 120px; /* Add padding to push the SOS box below the header */
+}
+
+/* SOS container styles */
+.sos-container {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.sos-container h2 {
+    color: #D32F2F;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.sos-container p {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.sos-container input[type="text"] {
+    padding: 12px;
+    width: 80%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.sos-container button {
+    background-color: #D32F2F;
+    font-size: 20px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sos-container button:hover {
+    background-color: #B71C1C;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.sos-container img {
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 10px;
+}
